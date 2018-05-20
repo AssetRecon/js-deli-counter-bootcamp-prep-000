@@ -10,8 +10,8 @@ function nowServing(katzDeliLine) {
 if (katzDeliLine.length === 0) {
   return "There is nobody waiting to be served!";
   } else {
-    console.log(katzDeli[0]);
-    return katzDeli.unshift;
+    return `current serving ${katzDeli[0]}.`;
+    katzDeli.unshift;
     
   }
 }
