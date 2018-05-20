@@ -18,6 +18,6 @@ if (katzDeli.length === 0) {
 
 function currentLine (katzDeliLine) {
   for (let i = 0; i<katzDeli.length;i++) {
-    return "Line is currently:"katzDeli[i] + 1
+    return "Line is currently:"+ katzDeli[i] + 1;
   }
 }
