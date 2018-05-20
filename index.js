@@ -5,4 +5,13 @@ function takeANumber (katzDeliLine,name) {
   return katzDeliLine.length;
 }
 
-console.log(takeANumber(katzDeli,"sam"));
+function nowServing() {
+  
+if (katzDeli.length === 0) {
+  return "There is nobody waiting to be served";
+  } else {
+    console.log(katzDeli[0]);
+    return katzDeli.unshift;
+    
+  }
+}
