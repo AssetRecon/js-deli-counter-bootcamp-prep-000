@@ -24,13 +24,3 @@ function currentLine (katzDeliLine) {
   return `The line is currently: ${nameNum.join(', ')}`;
 }
 
-function currentLine(line) {
-  if(line.length < 1) {
-    return "The line is currently empty."
-  } 
-  var nameNum = [];
-  for (var i = 0; i < line.length; i++) {
-    nameNum.push(`${i + 1}. ${line[i]}`);
-  }
-    return `The line is currently: ${nameNum.join(', ')}`
-}
