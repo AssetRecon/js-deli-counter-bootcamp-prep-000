@@ -5,4 +5,4 @@ function takeANumber (katzDeliLine,name) {
   return katzDeliLine.length;
 }
 
-takeANumber(katzDeli,"sam");
+console.log(takeANumber(katzDeli,"sam"));
