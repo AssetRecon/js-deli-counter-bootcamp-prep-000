@@ -12,7 +12,7 @@ if (katzDeliLine.length === 0) {
   } else {
     return `Currently serving ${katzDeliLine[0]}.`;
   }
- return katzDeli.unshift;
+ return katzDeliLine.unshift;
 }
 
 function currentLine (katzDeliLine) {
